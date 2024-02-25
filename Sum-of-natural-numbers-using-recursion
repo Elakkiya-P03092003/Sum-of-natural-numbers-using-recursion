@@ -1,0 +1,17 @@
+#include <stdio.h>
+int sumofnat(int n,int i);
+int main(){
+    int n,i,sum;
+    scanf("%d",&n);
+    sumofnat=sum(n,i);
+    for(int i=0;i<n;i++){
+    printf("%d",sum(i+1));
+}
+int sumofnat(int n,int i){
+    if(n==0)
+    return 0;
+    else if(n==1)
+    return 1;
+    else
+    return sum(i+1);}
+}
